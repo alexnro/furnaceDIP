@@ -1,5 +1,10 @@
 package org.lasencinas.hardware;
 
+import org.lasencinas.interfaces.Heater;
+import org.lasencinas.interfaces.Thermometer;
+import org.lasencinas.resources.RegulatorDisplayCodes;
+import org.lasencinas.resources.RoomTemperature;
+
 public class Regulator {
 
     public void regulate(Thermometer t, Heater h, double minTemp, double maxTemp, RoomTemperature temperature) {
